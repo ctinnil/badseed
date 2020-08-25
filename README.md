@@ -11,7 +11,7 @@ Installation && Setup
 
 ``` sh
 $ sudo chmod +x badseed_conf.sh
-$ sudo ./badseed_conf.sh
+$ sudo ./badseed_conf.sh # and follow the instructions 
 $ sudo reboot
 ```
 
