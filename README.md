@@ -15,9 +15,12 @@ $ sudo ./badseed_conf.sh
 $ sudo reboot
 ```
 
-platform | manager | get version  
+Tested on
+-----
+
+platform | manager | version  
 ---------|---------|---------------
-macOS | [Homebrew](https://docs.brew.sh/Installation) | `10.15.6`
+macOS | [Homebrew](https://docs.brew.sh/Installation) 2.4.13| `10.15.6`
 
 ### Disclaimer 
 
