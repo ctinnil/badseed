@@ -30,7 +30,7 @@ sudo dscl . delete /Users/"$(id -un)" Picture
 sudo dscl . -create /Users/"$(id -un)" Picture '/tmp/user.jpeg'
 
 # install other utilities 
-brew cask install firefox sublime-text java keka malwarebytes virtualbox xmind balenaetcher docker #docker not tested enough on vms -- may not work 
+brew cask install firefox sublime-text java keka malwarebytes virtualbox xmind balenaetcher mas docker #docker not tested enough on vms -- may not work 
 brew install wget git p7zip
 
 # install reconnaissance tools
@@ -38,9 +38,10 @@ brew install nmap nikto sqlmap gobuster recon-ng tcpdump
 brew cask install wireshark
 
 # install weaponisation tools
-brew cask install pycharm-ce dotnet #xcode
-brew cask install merlin-project ## for what ?
-
+brew cask install pycharm-ce dotnet 
+#xcode
+xcode=$(mas search "xcode"|head -n1|grep -Eo "[0-9]{1,}"|head -n1) # must be sign in with Apple ID
+mas install $xcode
 # install delivery tools
 sudo spctl --master-disable ## you may want to reenable this option after using burp and zap for the first time #sudo spctl --master-enable
 #installdmg "${URL_burp}${version}" #because brew cask install burp-suite will not work due to "developer unknown"
@@ -58,12 +59,15 @@ brew install binwalk volatility aircrack-ng hashcat hydra john
 #brew install exploitdb ## idem
 
 # install installation tools
-brew cask install vnc-server vnc-viewer 
+brew cask install vnc-server vnc-viewer
 brew install upx mosh
-
+#rdp
+rdp=$(mas search "microsoft remote desktop"|head -n1|grep -Eo "[0-9]{1,}"|head -n1) # must be sign in with Apple ID
+mas install $rdp
 
 # install c&c tools
-brew install cobalt #for what ???
+brew install cobalt #static-site generator
+brew cask install merlin-project #Project Management
 
 # actions on objectives 
 # default [x] Automator
