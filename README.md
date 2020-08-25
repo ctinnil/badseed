@@ -2,9 +2,25 @@
 
 BaD SeeD is an open source macOS **framework** for **digital forensics** and **penetration testing**.
 
-![BaD SeeD](https://github.com/ctinnil/badseed/blob/ctinnil-patch-1/res/logo.001.png?raw=true)
+![BaD SeeD](https://github.com/ctinnil/badseed/blob/master/res/logo.001.png?raw=true)
 
 The project is based on open source and commercial tools, used in the industry, that are maintained by their authors. To summarise, BadSeed offers a full portable laboratory for all kinds of cyber security operations, ranging from pentesting to digital forensics and reverse engineering, but it also includes everything needed to develop your own software or keep your data secure. 
+
+Installation && Setup 
+-----
+
+``` sh
+$ sudo chmod +x badseed_conf.sh
+$ sudo ./badseed_conf.sh
+$ sudo reboot
+```
+
+Tested on
+-----
+
+platform | manager | version  
+---------|---------|---------------
+macOS | [Homebrew](https://docs.brew.sh/Installation) 2.4.13| `10.15.6`
 
 ### Disclaimer 
 
