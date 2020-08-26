@@ -60,10 +60,6 @@ brew install ettercap
 # install exploitation tools
 brew cask install 0xed ghidra binary-ninja metasploit
 brew install binwalk volatility aircrack-ng hashcat hydra john exploitdb 
-## metasploit 
-curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && \
-  chmod 755 msfinstall && \
-  ./msfinstall
 
 # install installation tools
 brew cask install vnc-server vnc-viewer
