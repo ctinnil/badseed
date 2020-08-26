@@ -26,8 +26,8 @@ else
 fi
 
 # install other utilities 
-brew cask install firefox google-chrome deluge sublime-text java keka malwarebytes virtualbox xmind balenaetcher mas docker # docker not tested enough on vms -- may not work 
-brew install wget git p7zip archey htop tree midnight-commander speedtest-cli python3 python #python may be required 
+brew cask install firefox google-chrome deluge sublime-text java keka malwarebytes virtualbox xmind balenaetcher docker # docker not tested enough on vms -- may not work 
+brew install wget git p7zip archey htop tree midnight-commander speedtest-cli python3 python mas #python may be required 
 #ddgo
 ddgo=$(mas search duckduckgo | head -n1 | tr -s " " | cut -f2 -d" " )
 mas install $ddgo
