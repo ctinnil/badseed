@@ -6,13 +6,15 @@ sw_vers -productVersion
 # turn firewall on
 sudo defaults write /Library/Preferences/com.apple.alf globalstate -int 1
 
+# install xcode command line tool
+xcode-select -p
+xcode-select --install
+xcode-select -p
+
 # detects if Homebrew is istalled
 which -s brew
 if [[ $? != 0 ]] ; then
     # Install Homebrew
-    xcode-select -p
-    xcode-select --install
-    xcode-select -p
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
     #curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh
 else
@@ -42,6 +44,7 @@ brew cask install pycharm-ce dotnet
 #xcode
 xcode=$(mas search "xcode"|head -n1|grep -Eo "[0-9]{1,}"|head -n1) # must be sign in with Apple ID
 mas install $xcode
+
 # install delivery tools
 sudo spctl --master-disable ## you may want to reenable this option after using burp and zap for the first time #sudo spctl --master-enable
 #installdmg "${URL_burp}${version}" #because brew cask install burp-suite will not work due to "developer unknown"
@@ -50,7 +53,7 @@ brew install ettercap
 ## more to come 
 # beef 
 # setoolkit 
-#phishking ???
+# phishking ???
 
 # install exploitation tools
 brew cask install 0xed ghidra binary-ninja 
@@ -71,6 +74,9 @@ brew cask install merlin-project #Project Management
 
 # actions on objectives 
 # default [x] Automator
+
+#check installs
+brew doctor # checking for problems 
 
 # enable terminal autocomplet 
 set show-all-if-ambiguous on
