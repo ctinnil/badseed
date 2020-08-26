@@ -30,8 +30,8 @@ sudo dscl . delete /Users/"$(id -un)" Picture
 sudo dscl . -create /Users/"$(id -un)" Picture '/tmp/user.jpeg'
 
 # install other utilities 
-brew cask install firefox sublime-text java keka malwarebytes virtualbox xmind balenaetcher mas docker #docker not tested enough on vms -- may not work 
-brew install wget git p7zip
+brew cask install firefox sublime-text java keka malwarebytes virtualbox xmind balenaetcher #mas #docker not tested enough on vms -- may not work 
+brew install wget git p7zip archey htop tree midnight-commander speedtest-cli
 
 # install reconnaissance tools
 brew install nmap nikto sqlmap gobuster recon-ng tcpdump
