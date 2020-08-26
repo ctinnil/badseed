@@ -51,11 +51,21 @@ brew install ettercap
 #wget -q https://github.com/securestate/king-phisher/raw/master/tools/install.sh && \
 #  sudo zsh ./install.sh
 ## setoolkit
-#git clone https://github.com/trustedsec/social-engineer-toolkit/ setoolkit/
-#cd setoolkit
-#pip3 install -r requirements.txt
-#python setup.py
-# beef project
+git clone https://github.com/trustedsec/social-engineer-toolkit/ setoolkit/
+cd setoolkit
+pip3 install -r requirements.txt
+python3 setup.py
+cd
+## beef project
+\curl -sSL https://get.rvm.io | bash
+rvm install ruby-1.9.3
+rvm use ruby-1.9.3
+git clone git://github.com/beefproject/beef.git beef
+cd beef
+rvm use ruby-1.9.3-p125@beef --create --ruby-version
+bundle install 
+rvmsudo ./beef
+cd 
 
 # install exploitation tools
 brew cask install 0xed ghidra binary-ninja metasploit
