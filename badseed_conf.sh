@@ -1,6 +1,7 @@
-#!/bin/bash
+#!/bin/zsh
 # filename: badseed_conf.sh
-
+echo "\$0: $0"
+BS="$0"
 # get xOS version
 sw_vers -productVersion
 
@@ -10,26 +11,27 @@ sudo defaults write /Library/Preferences/com.apple.alf globalstate -int 1
 
 # check if the reboot flag file exists. 
 # We created this file before rebooting.
-if [ ! -f /var/run/resume-after-1reboot ]; then
-  echo "running script for the first time..."
+if [ ! -f /tmp/resume-after-1reboot ]; then
+  echo "running script for the first 
+time..."
   
   # update all
   sudo softwareupdate -ia --verbose
 
   # Preparation for reboot
-  script="bash /badseed_conf.sh"
+  script="zsh $BS"
   
   # add this script to zsh so it gets triggered immediately after reboot
   # change it to .bashrc if using bash shell
   echo "$script" >> ~/.zshrc 
   
   # create a flag file to check if we are resuming from reboot.
-  sudo touch /var/run/resume-1after-reboot
+  sudo touch /tmp/resume-after-1reboot
   
   echo "rebooting..."
   sudo reboot 
 
-elif [ ! -f /var/run/resume-after-2reboot ]; then
+elif [ ! -f /tmp/resume-after-2reboot ]; then
   echo "running script for the first time..."
   
   # install xcode command line tool
@@ -38,14 +40,14 @@ elif [ ! -f /var/run/resume-after-2reboot ]; then
   xcode-select -p
 
   # Preparation for reboot
-  script="bash /badseed_conf.sh"
+  script=" $BS"
   
   # add this script to zsh so it gets triggered immediately after reboot
   # change it to .bashrc if using bash shell
   echo "$script" >> ~/.zshrc 
   
   # create a flag file to check if we are resuming from reboot.
-  sudo touch /var/run/resume-after-2reboot
+  sudo touch /tmp/resume-after-2reboot
   
   echo "rebooting..."
   sudo reboot 
@@ -57,8 +59,8 @@ else
   sed -i '/bash/d' ~/.zshrc 
   
   # remove the temporary file that we created to check for reboot
-  sudo rm -f /var/run/resume-after-1reboot
-  sudo rm -f /var/run/resume-after-2reboot
+  sudo rm -f /tmp/resume-after-1reboot
+  sudo rm -f /tmp/resume-after-2reboot
 
   # detects if Homebrew is istalled
     which -s brew
@@ -94,7 +96,7 @@ else
     brew cask install postman owasp-zap burp-suite
     brew install ettercap
     wget -q https://github.com/securestate/king-phisher/raw/master/tools/install.sh && \
-        sudo bash ./install.sh
+        sudo zsh ./install.sh
     git clone https://github.com/trustedsec/social-engineer-toolkit/ setoolkit/
     cd setoolkit
     pip3 install -r requirements.txt
