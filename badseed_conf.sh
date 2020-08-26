@@ -80,3 +80,6 @@ brew doctor # checking for problems
 
 # enable terminal autocomplet 
 set show-all-if-ambiguous on
+
+# update all
+sudo softwareupdate -ia --verbose
