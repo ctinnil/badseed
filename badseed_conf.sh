@@ -33,8 +33,8 @@ ddgo=$(mas search duckduckgo | head -n1 | tr -s " " | cut -f2 -d" " )
 mas install $ddgo
 
 # install reconnaissance tools
-brew install nmap nikto sqlmap gobuster recon-ng tcpdump
-brew cask install wireshark
+brew install nmap nikto sqlmap gobuster recon-ng tcpdump theharvester findomain
+brew cask install wireshark maltego
 
 # install weaponisation tools
 brew cask install pycharm-ce dotnet 
@@ -76,11 +76,13 @@ git clone https://github.com/Marten4n6/EvilOSX
 cd EvilOSX
 sudo pip install -r requirements.txt
 #python start.py
+cd
 ## CALDERA
 git clone https://github.com/mitre/caldera.git --recursive --branch 2.7.0
-sudo apt install -y python-pip3
+cd caldera
 pip3 install -r requirements.txt
 #python3 server.py --insecure
+cd
 
 # actions on objectives 
 # default [x] Automator
