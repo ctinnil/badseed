@@ -48,13 +48,13 @@ sudo spctl --master-disable ## you may want to reenable this option after using 
 brew cask install postman owasp-zap burp-suite
 brew install ettercap
 ## king-phisher
-wget -q https://github.com/securestate/king-phisher/raw/master/tools/install.sh && \
-  sudo zsh ./install.sh
+#wget -q https://github.com/securestate/king-phisher/raw/master/tools/install.sh && \
+#  sudo zsh ./install.sh
 ## setoolkit
-git clone https://github.com/trustedsec/social-engineer-toolkit/ setoolkit/
-cd setoolkit
-pip3 install -r requirements.txt
-python setup.py
+#git clone https://github.com/trustedsec/social-engineer-toolkit/ setoolkit/
+#cd setoolkit
+#pip3 install -r requirements.txt
+#python setup.py
 # beef project
 
 # install exploitation tools
