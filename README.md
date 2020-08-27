@@ -4,6 +4,26 @@ BaD SeeD is an open-source macOS **framework** for **digital forensics** and **p
 
 ![BaD SeeD](https://github.com/ctinnil/badseed/blob/master/res/logo.001.png?raw=true)
 
+<p align="center">
+  <a href="https://github.com/ctinnil/badseed/blob/master/releases">
+      <img src="https://img.shields.io/github/release/ctinnil/badseed.svg?style=flat-square" alt="GitHub release">
+  </a>
+  <a href="https://github.com/ctinnil/badseed/blob/master/LICENSE">
+      <img src="https://img.shields.io/badge/license-GPLv3-blue.svg?style=flat-square" alt="License">
+  </a>
+  <a href="https://github.com/ctinnil/badseed/issues">
+    <img src="https://img.shields.io/github/issues/ctinnil/badseed.svg?style=flat-square" alt="Issues">
+  </a>
+  <a href="https://github.com/ctinnil/badseed/">
+      <img src="https://img.shields.io/travis/ctinnil/badseedX/master.svg?style=flat-square" alt="Build Status">
+  </a>
+  <a href="https://github.com/ctinnil/badseed/blob/master/CONTRIBUTING.md">
+      <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square" alt="Contributing">
+  </a>
+</p>
+
+---
+
 The project relies on open-source and commercial tools used in the industry that are maintained by their authors. To summarise, BadSeed offers a full portable laboratory for all kinds of cybersecurity operations, ranging from pentesting to digital forensics and reverse engineering. Still, it also includes everything needed to develop your software or keep your data secure.
 
 It organizes the tools following the [Cyber Kill Chain®](https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html) framework developed by Lockheed Martin. The model highlights the main action taken by an attacker (whitehat or otherwise), to compromise an IT infrastructure. The seven steps of CKC can enhance understanding of the adversary’s tactics, techniques, and procedures, enriching the capabilities of both blue and red teams.
