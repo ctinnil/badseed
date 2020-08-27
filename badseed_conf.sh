@@ -26,7 +26,7 @@ else
 fi
 
 # install other utilities 
-brew cask install firefox google-chrome deluge sublime-text java keka malwarebytes virtualbox xmind balenaetcher knockknock reikey netiquette taskexplorer docker # docker not tested enough on vms -- may not work 
+brew cask install firefox google-chrome deluge sublime-text java keka malwarebytes virtualbox xmind balenaetcher knockknock reikey netiquette taskexplorer # docker not tested enough on vms -- may not work 
 brew install wget git p7zip archey htop tree midnight-commander speedtest-cli python3 python mas #python may be required 
 #ddgo
 ddgo=$(mas search duckduckgo | head -n1 | tr -s " " | cut -f2 -d" " )
@@ -50,25 +50,6 @@ mas install $xcode
 sudo spctl --master-disable ## you may want to reenable this option after using burp and zap for the first time #sudo spctl --master-enable
 brew cask install postman owasp-zap burp-suite
 brew install ettercap mitmproxy
-## king-phisher
-#wget -q https://github.com/securestate/king-phisher/raw/master/tools/install.sh && \
-#  sudo zsh ./install.sh
-## setoolkit
-git clone https://github.com/trustedsec/social-engineer-toolkit/ setoolkit/
-cd setoolkit
-pip3 install -r requirements.txt
-python3 setup.py
-cd
-## beef project
-\curl -sSL https://get.rvm.io | bash
-rvm install ruby-1.9.3
-rvm use ruby-1.9.3
-git clone git://github.com/beefproject/beef.git beef
-cd beef
-rvm use ruby-1.9.3-p125@beef --create --ruby-version
-bundle install 
-rvmsudo ./beef
-cd 
 
 # install exploitation tools
 brew cask install 0xed ghidra binary-ninja metasploit
@@ -84,17 +65,11 @@ mas install $rdp
 # install c&c tools
 brew install cobalt #static-site generator
 brew cask install merlin-project #Project Management
-## EvilOSX
-git clone https://github.com/Marten4n6/EvilOSX
-cd EvilOSX
-sudo pip install -r requirements.txt
-#python start.py
-cd
 ## CALDERA
 git clone https://github.com/mitre/caldera.git --recursive --branch 2.7.0
 cd caldera
 pip3 install -r requirements.txt
-#python3 server.py --insecure
+python3 server.py --insecure # go to http://localhost:8888 to use
 cd
 
 # actions on objectives 
