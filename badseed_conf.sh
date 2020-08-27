@@ -26,11 +26,14 @@ else
 fi
 
 # install other utilities 
-brew cask install firefox google-chrome deluge sublime-text java keka malwarebytes virtualbox xmind balenaetcher docker # docker not tested enough on vms -- may not work 
+brew cask install firefox google-chrome deluge sublime-text java keka malwarebytes virtualbox xmind balenaetcher knockknock reikey netiquette taskexplorer docker # docker not tested enough on vms -- may not work 
 brew install wget git p7zip archey htop tree midnight-commander speedtest-cli python3 python mas #python may be required 
 #ddgo
 ddgo=$(mas search duckduckgo | head -n1 | tr -s " " | cut -f2 -d" " )
 mas install $ddgo
+#enpass
+enpass=$(mas search enpass | head -n1 | tr -s " " | cut -f2 -d" " )
+mas install $enpass
 
 # install reconnaissance tools
 brew install nmap nikto sqlmap gobuster recon-ng tcpdump theharvester findomain
@@ -46,7 +49,7 @@ mas install $xcode
 # install delivery tools
 sudo spctl --master-disable ## you may want to reenable this option after using burp and zap for the first time #sudo spctl --master-enable
 brew cask install postman owasp-zap burp-suite
-brew install ettercap
+brew install ettercap mitmproxy
 ## king-phisher
 #wget -q https://github.com/securestate/king-phisher/raw/master/tools/install.sh && \
 #  sudo zsh ./install.sh
@@ -73,7 +76,7 @@ brew install binwalk volatility aircrack-ng hashcat hydra john exploitdb
 
 # install installation tools
 brew cask install vnc-server vnc-viewer
-brew install upx mosh
+brew install upx mosh netcat netcat6
 #rdp
 rdp=$(mas search microsoft-remote | head -n1 | tr -s " " | cut -f2 -d" " )
 mas install $rdp
