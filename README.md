@@ -31,8 +31,8 @@ It organizes the tools following the [Cyber Kill Chain®](https://www.lockheedma
 Requirements 
 -----
 These requirements are for the computer running the core framework:
-•	macOS 10.15+ 
-•	recommended hardware to run on is 4GB+ RAM and 2+ CPUs
+* macOS 10.15+ 
+* recommended hardware to run on is 4GB+ RAM and 2+ CPUs
 
 Installation 
 -----
