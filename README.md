@@ -6,7 +6,7 @@ BaD SeeD is a macOS **framework** for **digital forensics** and **penetration te
 
 <p align="center">
   <a href="https://github.com/ctinnil/badseed/blob/master/releases">
-      <img src="https://img.shields.io/github/release/ctinnil/badseed.git?style=flat-square" alt="GitHub release">
+      <img src="https://img.shields.io/github/releases/ctinnil/badseed.git?style=flat-square" alt="GitHub release">
   </a>
   <a href="https://github.com/ctinnil/badseed/blob/master/LICENSE">
       <img src="https://img.shields.io/github/license/ctinnil/badseed.git?style=flat-square" alt="License">
@@ -14,13 +14,13 @@ BaD SeeD is a macOS **framework** for **digital forensics** and **penetration te
   <a href="https://github.com/ctinnil/badseed/issues">
     <img src="https://img.shields.io/github/issues/ctinnil/badseed.git?style=flat-square" alt="Issues">
   </a>
-  <a href="https://github.com/ctinnil/badseed/">
+  <a href="https://github.com/ctinnil/badseed.git">
       <img src="https://img.shields.io/github/master/ctinnil/badseed.git?style=flat-square" alt="Build Status">
   </a>
-  <a href="https://github.com/ctinnil/badseed/compare">
+  <a href="https://github.com/ctinnil/badseed/pulls">
       <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square" alt="Contributing">
   </a>
-  <a href="https://twitter.com/intent/tweet?text=BaD+SeeD+-+macOS+framework+to+improve+your+purple+teaming&amp;url=https%3A%2F%2Fgithub.com%2Fctinnil%2Fbadseed.gite&amp;ctinnil">
+  <a href="https://twitter.com/intent/tweet?text=BaD+SeeD+-+macOS+framework+to+improve+your+purple+teaming&amp;url=https%3A%2F%2Fgithub.com%2Fctinnil%2Fbadseed.gite&amp;via=ctinnil">
       <img src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fctinnil%2Fbadseed.git" alt="Contributing">
   </a>
 </p>
