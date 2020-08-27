@@ -1,24 +1,27 @@
 # BaD SeeD
 
-BaD SeeD is an open-source macOS **framework** for **digital forensics** and **penetration testing**.
+BaD SeeD is a macOS **framework** for **digital forensics** and **penetration testing**.
 
 ![BaD SeeD](https://github.com/ctinnil/badseed/blob/master/res/logo.001.png?raw=true)
 
 <p align="center">
   <a href="https://github.com/ctinnil/badseed/blob/master/releases">
-      <img src="https://img.shields.io/github/release/ctinnil/badseed.svg?style=flat-square" alt="GitHub release">
+      <img src="https://img.shields.io/github/release/ctinnil/badseed.git?style=flat-square" alt="GitHub release">
   </a>
   <a href="https://github.com/ctinnil/badseed/blob/master/LICENSE">
-      <img src="https://img.shields.io/badge/license-GPLv3-blue.svg?style=flat-square" alt="License">
+      <img src="https://img.shields.io/github/license/ctinnil/badseed.git?style=flat-square" alt="License">
   </a>
   <a href="https://github.com/ctinnil/badseed/issues">
-    <img src="https://img.shields.io/github/issues/ctinnil/badseed.svg?style=flat-square" alt="Issues">
+    <img src="https://img.shields.io/github/issues/ctinnil/badseed.git?style=flat-square" alt="Issues">
   </a>
   <a href="https://github.com/ctinnil/badseed/">
-      <img src="https://img.shields.io/travis/ctinnil/badseedX/master.svg?style=flat-square" alt="Build Status">
+      <img src="https://img.shields.io/github/master/ctinnil/badseed.git?style=flat-square" alt="Build Status">
   </a>
-  <a href="https://github.com/ctinnil/badseed/blob/master/CONTRIBUTING.md">
+  <a href="https://github.com/ctinnil/badseed/compare">
       <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square" alt="Contributing">
+  </a>
+  <a href="https://twitter.com/intent/tweet?text=BaD+SeeD+-+macOS+framework+to+improve+your+purple+teaming&amp;url=https%3A%2F%2Fgithub.com%2Fctinnil%2Fbadseed.gite&amp;via=ctinnil">
+      <img src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fctinnil%2Fbadseed.git" alt="Contributing">
   </a>
 </p>
 
@@ -26,7 +29,7 @@ BaD SeeD is an open-source macOS **framework** for **digital forensics** and **p
 
 The project relies on open-source and commercial tools used in the industry that are maintained by their authors. To summarise, BadSeed offers a full portable laboratory for all kinds of cybersecurity operations, ranging from pentesting to digital forensics and reverse engineering. Still, it also includes everything needed to develop your software or keep your data secure.
 
-It organizes the tools following the [Cyber Kill Chain®](https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html) framework developed by Lockheed Martin. The model highlights the main action taken by an attacker (whitehat or otherwise), to compromise an IT infrastructure. The seven steps of CKC can enhance understanding of the adversary’s tactics, techniques, and procedures, enriching the capabilities <div style="float: left;"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="128" height="128"/></div> of both blue and red teams. 
+It organizes the tools following the [Cyber Kill Chain®](https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html) framework developed by Lockheed Martin. The model highlights the main action taken by an attacker (whitehat or otherwise), to compromise an IT infrastructure. The seven steps of CKC can enhance understanding of the adversary’s tactics, techniques, and procedures, enriching the capabilities of both blue and red teams.
 
 Requirements 
 -----
