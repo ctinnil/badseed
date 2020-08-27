@@ -36,7 +36,7 @@ enpass=$(mas search enpass | head -n1 | tr -s " " | cut -f2 -d" " )
 mas install $enpass
 
 # install reconnaissance tools
-brew install nmap nikto sqlmap gobuster recon-ng tcpdump theharvester findomain
+brew install nmap nikto sqlmap gobuster recon-ng tcpdump theharvester findomain rustscan
 brew cask install wireshark maltego
 
 # install weaponisation tools
