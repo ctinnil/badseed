@@ -1,15 +1,25 @@
 # BaD SeeD
 
-BaD SeeD is an open source macOS **framework** for **digital forensics** and **penetration testing**.
+BaD SeeD is an open-source macOS **framework** for **digital forensics** and **penetration testing**.
 
 ![BaD SeeD](https://github.com/ctinnil/badseed/blob/master/res/logo.001.png?raw=true)
 
-The project is based on open source and commercial tools, used in the industry, that are maintained by their authors. To summarise, BadSeed offers a full portable laboratory for all kinds of cyber security operations, ranging from pentesting to digital forensics and reverse engineering, but it also includes everything needed to develop your own software or keep your data secure. 
+The project relies on open-source and commercial tools used in the industry that are maintained by their authors. To summarise, BadSeed offers a full portable laboratory for all kinds of cybersecurity operations, ranging from pentesting to digital forensics and reverse engineering. Still, it also includes everything needed to develop your software or keep your data secure.
 
-Installation && Setup 
+It organizes the tools following the [Cyber Kill Chain®](https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html) framework developed by Lockheed Martin. The model highlights the main action taken by an attacker (whitehat or otherwise), to compromise an IT infrastructure. The seven steps of CKC can enhance understanding of the adversary’s tactics, techniques, and procedures, enriching the capabilities of both blue and red teams.
+
+Requirements 
+-----
+These requirements are for the computer running the core framework:
+•	macOS 10.15+ 
+•	recommended hardware to run on is 4GB+ RAM and 2+ CPUs
+
+Installation 
 -----
 
 ``` sh
+$ git clone https://github.com/ctinnil/badseed.git
+$ cd badseed
 $ sudo chmod +x badseed_conf.sh
 $ sudo ./badseed_conf.sh # and follow the instructions 
 $ sudo reboot
@@ -24,7 +34,7 @@ macOS | [Homebrew](https://docs.brew.sh/Installation) 2.4.13| `10.15.6`
 
 ### Disclaimer 
 
-***All the tools included may only be used with proper authorisation backed-up by a Rules of Engagement (RoE) agreement or for educational purposes in laboratories and virtual environments. Performing hack attempts on computers that you do not own, without written permission from owners, is illegal. The information contained in this repository should only be used to enhance the security of your IT infrastructure and not to conduct malicious or damaging attacks. You should not misuse this information to gain unauthorised access into computer systems. I will not be responsible for any direct or indirect damage caused due to the misusage of the provided framework.***
+***All the tools included may only be used with proper authorization backed-up by a Rules of Engagement (RoE) agreement or for educational purposes in laboratories and virtual environments. Performing hack attempts on computers that you do not own, without written permission from owners, is illegal. The information contained in this repository should only be used to enhance the security of your IT infrastructure and not to conduct malicious or damaging attacks. You should not misuse this information to gain unauthorized access to computer systems. I will not be responsible for any direct or indirect damage caused due to the misusage of the provided framework.***
 
 ### Thanks to Homebrew developers and contributors !!!
 @https://github.com/Homebrew/brew.git
