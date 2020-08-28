@@ -16,6 +16,8 @@ sudo softwareupdate -ia --verbose
 xcode-select --install
 xcode-select -p
 
+sudo spctl --master-disable ## you may want to reenable this option after using burp and zap for the first time -- >> sudo spctl --master-enable
+
 # detects if Homebrew is istalled
 which -s brew
 if [[ $? != 0 ]] ; then
@@ -41,7 +43,7 @@ brew cask install knockknock
 brew cask install reikey 
 brew cask install netiquette 
 brew cask install taskexplorer 
-#brew cask install docker #not tested enough on vms -- may not work 
+brew cask install docker #must enable hypervisor applications in vm and at least 4GB RAM
 brew install wget 
 brew install git 
 brew install p7zip 
@@ -81,7 +83,6 @@ xcode=$(mas search xcode | head -n1 | tr -s " " | cut -f2 -d" " )
 mas install $xcode
 
 # install delivery tools
-sudo spctl --master-disable ## you may want to reenable this option after using burp and zap for the first time -- >> sudo spctl --master-enable
 brew cask install postman 
 brew cask install owasp-zap 
 brew cask install burp-suite
