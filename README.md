@@ -34,6 +34,7 @@ Requirements
 These requirements are for the computer running the core framework:
 * macOS 10.15+ 
 * recommended hardware to run on is 4GB+ RAM and 2+ CPUs
+* if in virtual machine, enables running modern virtualization applications by providing support for Intel VT-x/EPT
 
 Installation 
 -----
