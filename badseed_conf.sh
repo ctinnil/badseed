@@ -26,8 +26,33 @@ else
 fi
 
 # install other utilities 
-brew cask install firefox google-chrome deluge sublime-text java keka malwarebytes virtualbox xmind balenaetcher knockknock reikey netiquette taskexplorer # docker not tested enough on vms -- may not work 
-brew install wget git p7zip archey htop tree midnight-commander speedtest-cli python3 python mas #python may be required 
+brew cask install firefox 
+brew cask install google-chrome
+brew cask install deluge 
+brew cask install sublime-text 
+brew cask install java 
+brew cask install keka 
+brew cask install drawio
+brew cask install malwarebytes 
+brew cask install virtualbox 
+brew cask install xmind 
+brew cask install balenaetcher 
+brew cask install knockknock 
+brew cask install reikey 
+brew cask install netiquette 
+brew cask install taskexplorer 
+#brew cask install docker #not tested enough on vms -- may not work 
+brew install wget 
+brew install git 
+brew install p7zip 
+brew install archey 
+brew install htop 
+brew install tree 
+brew install midnight-commander 
+brew install speedtest-cli 
+brew install python3 
+brew install python 
+brew install mas 
 #ddgo
 ddgo=$(mas search duckduckgo | head -n1 | tr -s " " | cut -f2 -d" " )
 mas install $ddgo  # must be sign in with Apple ID
@@ -36,30 +61,63 @@ enpass=$(mas search enpass | head -n1 | tr -s " " | cut -f2 -d" " )
 mas install $enpass
 
 # install reconnaissance tools
-brew install nmap nikto sqlmap gobuster recon-ng tcpdump theharvester findomain rustscan
-brew cask install wireshark maltego
+brew install nmap 
+brew install nikto 
+brew install sqlmap 
+brew install gobuster 
+brew install recon-ng 
+brew install tcpdump 
+brew install theharvester 
+brew install findomain 
+brew install rustscan
+brew cask install wireshark 
+brew cask install maltego
 
 # install weaponisation tools
-brew cask install pycharm-ce dotnet 
+brew cask install pycharm-ce 
+brew cask install dotnet 
 #xcode
 xcode=$(mas search xcode | head -n1 | tr -s " " | cut -f2 -d" " )
 mas install $xcode
 
 # install delivery tools
 sudo spctl --master-disable ## you may want to reenable this option after using burp and zap for the first time -- >> sudo spctl --master-enable
-brew cask install postman owasp-zap burp-suite
-brew install ettercap mitmproxy
+brew cask install postman 
+brew cask install owasp-zap 
+brew cask install burp-suite
+brew install ettercap 
+brew install bettercap
+brew install mitmproxy
 
 # install exploitation tools
-brew cask install 0xed ghidra binary-ninja metasploit
-brew install binwalk volatility aircrack-ng hashcat hydra john exploitdb 
+brew cask install 0xed 
+brew cask install ghidra 
+brew cask install binary-ninja 
+brew cask install metasploit
+brew install binwalk 
+brew install bulk_extractor
+brew install volatility 
+brew install yara
+brew install aircrack-ng 
+brew install hashcat 
+brew install crunch
+brew install hydra 
+brew install john 
+brew install exploitdb 
 
 # install installation tools
-brew cask install vnc-server vnc-viewer
-brew install upx mosh netcat netcat6
+#brew cask install vnc-server 
+brew cask install vnc-viewer
+brew install upx 
+brew install mosh 
+brew install netcat 
+brew install netcat6
 #rdp
 rdp=$(mas search microsoft-remote | head -n1 | tr -s " " | cut -f2 -d" " )
 mas install $rdp
+#ac2
+ac2=$(mas search "apple configurator" | head -n1 | tr -s " " | cut -f2 -d" " )
+mas install $ac2
 
 # install c&c tools
 brew install cobalt #static-site generator
@@ -68,7 +126,7 @@ brew cask install merlin-project #Project Management
 git clone https://github.com/mitre/caldera.git --recursive --branch 2.7.0
 cd caldera
 pip3 install -r requirements.txt
-python3 server.py --insecure # go to http://localhost:8888 to use
+#python3 server.py --insecure # go to http://localhost:8888 to use
 cd
 
 # actions on objectives 
