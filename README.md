@@ -25,7 +25,7 @@ The project relies on open-source and commercial tools used in the industry that
 
 It organizes the tools following the [Cyber Kill Chain®](https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html) framework developed by Lockheed Martin. The model highlights the main action taken by an attacker (whitehat or otherwise), to compromise an IT infrastructure. The seven steps of CKC can enhance understanding of the adversary’s tactics, techniques, and procedures, enriching the capabilities of both blue and red teams.
 
-![CKC](https://github.com/ctinnil/badseed/blob/ctinnil-patch-1/res/Untitled.001.png?raw=true)
+![CKC](https://github.com/ctinnil/badseed/blob/ctinnil-patch-1/res/ckc.png?raw=true)
 
 This project is a work-in-progress, so feel free to contribute and suggest new tools that can be added. 
 
