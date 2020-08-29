@@ -28,33 +28,33 @@ else
 fi
 
 # install other utilities 
-brew cask install firefox 
-brew cask install google-chrome
-brew cask install deluge 
-brew cask install sublime-text 
-brew cask install java 
-brew cask install keka 
-brew cask install drawio
-brew cask install malwarebytes 
-brew cask install virtualbox 
-brew cask install xmind 
-brew cask install balenaetcher 
-brew cask install knockknock 
-brew cask install reikey 
-brew cask install netiquette 
-brew cask install taskexplorer 
-brew cask install docker #must enable hypervisor applications in vm and at least 4GB RAM
-brew install wget 
 brew install git 
-brew install p7zip 
-brew install archey 
+brew install mas 
 brew install htop 
 brew install tree 
-brew install midnight-commander 
-brew install speedtest-cli 
-brew install python3 
+brew install wget 
+brew install p7zip 
+brew install archey 
 brew install python 
-brew install mas 
+brew install python3 
+brew install speedtest-cli 
+brew install midnight-commander 
+brew cask install keka 
+brew cask install java 
+brew cask install xmind 
+brew cask install reikey 
+brew cask install drawio
+brew cask install deluge 
+brew cask install firefox
+brew cask install virtualbox 
+brew cask install knockknock 
+brew cask install netiquette 
+brew cask install taskexplorer 
+brew cask install balenaetcher 
+brew cask install malwarebytes 
+brew cask install sublime-text 
+brew cask install google-chrome
+brew cask install docker #must enable hypervisor applications in vm and at least 4GB RAM
 #ddgo
 ddgo=$(mas search duckduckgo | head -n1 | tr -s " " | cut -f2 -d" " )
 mas install $ddgo  # must be sign in with Apple ID
@@ -66,53 +66,68 @@ mas install $enpass
 brew install nmap 
 brew install nikto 
 brew install sqlmap 
-brew install gobuster 
-brew install recon-ng 
 brew install tcpdump 
-brew install theharvester 
-brew install findomain 
+brew install gobuster
 brew install rustscan
-brew cask install wireshark 
+brew install recon-ng 
+brew install findomain 
+brew install theharvester 
 brew cask install maltego
+brew cask install wireshark 
+wget https://srv-file5.gofile.io/download/IUbIxZ/monkey-island-docker.tar.gz
+tar -xvzf monkey-island-docker.tar.gz
+sudo docker load -i dk.monkeyisland.1.9.0.tar
+sudo docker pull mongo
+sudo mkdir -p /var/monkey-mongo/data/db
+#sudo docker run --name monkey-mongo --network=host -v /var/monkey-mongo/data/db:/data/db -d mongo
+#sudo docker run --name monkey-island --network=host -d guardicore/monkey-island:1.9.0
 
 # install weaponisation tools
-brew cask install pycharm-ce 
 brew cask install dotnet 
+brew cask install pycharm-ce 
 #xcode
 xcode=$(mas search xcode | head -n1 | tr -s " " | cut -f2 -d" " )
 mas install $xcode
 
 # install delivery tools
-brew cask install postman 
-brew cask install owasp-zap 
-brew cask install burp-suite
 brew install ettercap 
 brew install bettercap
 brew install mitmproxy
+brew cask install postman 
+brew cask install owasp-zap 
+brew cask install burp-suite
+git clone https://github.com/beefproject/beef.git
+cd beef 
+sed -i'.original' 's/passwd: \"beef\"/passwd: \"beef1234\"/g' config.yaml #changing user for beEF framework, necessary for install 
+sed -i'.original' 's/passwd: \"beef\"/passwd: \"beef1234\"/g' config.yaml #changing password for beEF framework, consider changing the value as needed 
+docker build -t beef .
+# If you'd prefer the container to run backgrounded/detached just add the -d tag to the command below
+#docker run -p 3000:3000 -p 6789:6789 -p 61985:61985 -p 61986:61986 --name beef beef
+cd
 
 # install exploitation tools
+brew install john 
+brew install yara
+brew install hydra 
+brew install crunch
+brew install hashcat 
+brew install binwalk 
+brew install exploitdb 
+brew install volatility 
+brew install aircrack-ng 
+brew install bulk_extractor
 brew cask install 0xed 
 brew cask install ghidra 
-brew cask install binary-ninja 
 brew cask install metasploit
-brew install binwalk 
-brew install bulk_extractor
-brew install volatility 
-brew install yara
-brew install aircrack-ng 
-brew install hashcat 
-brew install crunch
-brew install hydra 
-brew install john 
-brew install exploitdb 
+brew cask install binary-ninja 
 
 # install installation tools
-#brew cask install vnc-server 
-brew cask install vnc-viewer
 brew install upx 
 brew install mosh 
 brew install netcat 
 brew install netcat6
+brew cask install vnc-viewer
+#brew cask install vnc-server 
 #rdp
 rdp=$(mas search microsoft-remote | head -n1 | tr -s " " | cut -f2 -d" " )
 mas install $rdp
