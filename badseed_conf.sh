@@ -30,13 +30,16 @@ fi
 # install other utilities 
 brew install git 
 brew install mas 
+brew install php
 brew install htop 
+brew install curl
 brew install tree 
 brew install wget 
 brew install p7zip 
 brew install archey 
 brew install python 
 brew install python3 
+brew install openssh
 brew install speedtest-cli 
 brew install midnight-commander 
 brew cask install keka 
@@ -54,7 +57,8 @@ brew cask install balenaetcher
 brew cask install malwarebytes 
 brew cask install sublime-text 
 brew cask install google-chrome
-brew cask install docker #must enable hypervisor applications in vm and at least 4GB RAM
+#brew cask install docker #must enable hypervisor applications in vm and at least 4GB RAM
+#docker needs to be installed prior so that beef and infectionmonkey could be configured
 #ddgo
 ddgo=$(mas search duckduckgo | head -n1 | tr -s " " | cut -f2 -d" " )
 mas install $ddgo  # must be sign in with Apple ID
@@ -104,6 +108,10 @@ docker build -t beef .
 # If you'd prefer the container to run backgrounded/detached just add the -d tag to the command below
 #docker run -p 3000:3000 -p 6789:6789 -p 61985:61985 -p 61986:61986 --name beef beef
 cd
+#zphisher
+git clone git://github.com/htr-tech/zphisher.git
+# cd zphisher
+# bash zphisher.sh
 
 # install exploitation tools
 brew install john 
