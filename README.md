@@ -6,7 +6,7 @@ BaD SeeD is a macOS **framework** for **digital forensics** and **penetration te
 
 <p align="center">
   <a href="https://github.com/ctinnil/badseed/blob/master/LICENSE">
-      <img src="https://img.shields.io/github/license/ctinnil/badseed.git?style=flat-square" alt="License">
+      <img src="https://img.shields.io/github/license/ctinnil/badseed" alt="License">
   </a>
   <a href="https://github.com/ctinnil/badseed/issues">
     <img src="https://img.shields.io/github/issues/ctinnil/badseed" alt="Issues">
