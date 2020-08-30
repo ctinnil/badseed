@@ -41,11 +41,11 @@ Installation
 -----
 
 ``` sh
-$ git clone https://github.com/ctinnil/badseed.git
-$ cd badseed
-$ sudo chmod +x badseed_conf.sh
-$ sudo ./badseed_conf.sh # and follow the instructions 
-$ sudo reboot
+git clone https://github.com/ctinnil/badseed.git
+cd badseed
+sudo chmod +x badseed_conf.sh
+sudo ./badseed_conf.sh # and follow the instructions 
+sudo reboot
 ```
 
 Tested on
