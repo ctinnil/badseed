@@ -95,7 +95,7 @@ brew cask install owasp-zap
 brew cask install burp-suite
 git clone https://github.com/beefproject/beef.git
 cd beef 
-sed -i'.original' 's/passwd: \"beef\"/passwd: \"beef1234\"/g' config.yaml #changing user for beEF framework, necessary for install 
+sed -i'.original' 's/user: \"beef\"/user: \"beefadmin\"/g' config.yaml #changing user for beEF framework, necessary for install 
 sed -i'.original' 's/passwd: \"beef\"/passwd: \"beef1234\"/g' config.yaml #changing password for beEF framework, consider changing the value as needed 
 docker build -t beef .
 # If you'd prefer the container to run backgrounded/detached just add the -d tag to the command below
