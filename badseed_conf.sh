@@ -78,13 +78,6 @@ brew install findomain
 brew install theharvester 
 brew cask install maltego
 brew cask install wireshark 
-wget https://srv-file5.gofile.io/download/IUbIxZ/monkey-island-docker.tar.gz
-tar -xvzf monkey-island-docker.tar.gz
-sudo docker load -i dk.monkeyisland.1.9.0.tar
-sudo docker pull mongo
-sudo mkdir -p /var/monkey-mongo/data/db
-#sudo docker run --name monkey-mongo --network=host -v /var/monkey-mongo/data/db:/data/db -d mongo
-#sudo docker run --name monkey-island --network=host -d guardicore/monkey-island:1.9.0
 
 # install weaponisation tools
 brew cask install dotnet 
