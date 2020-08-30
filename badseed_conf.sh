@@ -58,7 +58,7 @@ brew cask install malwarebytes
 brew cask install sublime-text 
 brew cask install google-chrome
 #brew cask install docker #must enable hypervisor applications in vm and at least 4GB RAM
-#docker needs to be installed prior so that beef and infectionmonkey could be configured
+#docker needs to be installed prior so that beef could be configured
 #ddgo
 ddgo=$(mas search duckduckgo | head -n1 | tr -s " " | cut -f2 -d" " )
 mas install $ddgo  # must be sign in with Apple ID
