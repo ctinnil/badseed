@@ -40,6 +40,7 @@ brew install archey
 brew install python 
 brew install python3 
 brew install openssh
+brew install coreutils
 brew install speedtest-cli 
 brew install midnight-commander 
 brew cask install keka 
@@ -121,6 +122,7 @@ brew cask install 0xed
 brew cask install ghidra 
 brew cask install metasploit
 brew cask install binary-ninja 
+pip3 install raccoon-scanner
 
 # install installation tools
 brew install upx 
