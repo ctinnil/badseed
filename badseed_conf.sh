@@ -83,6 +83,7 @@ brew cask install wireshark
 # install weaponisation tools
 brew cask install dotnet 
 brew cask install pycharm-ce 
+brew cask install visual-studio-code
 #xcode
 xcode=$(mas search xcode | head -n1 | tr -s " " | cut -f2 -d" " )
 mas install $xcode
