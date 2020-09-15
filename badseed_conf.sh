@@ -79,6 +79,11 @@ brew install findomain
 brew install theharvester 
 brew cask install maltego
 brew cask install wireshark 
+git clone https://github.com/samhaxr/recox
+cd recox
+chmod +x recox.sh
+#./recox.sh
+cd
 
 # install weaponisation tools
 brew cask install dotnet 
@@ -124,12 +129,25 @@ brew cask install ghidra
 brew cask install metasploit
 brew cask install binary-ninja 
 pip3 install raccoon-scanner
+git clone https://github.com/quark-engine/quark-engine.git; cd quark-engine/quark
+brew install pipenv
+pipenv install --skip-lock
+pipenv shell
+quark --help
+exit
+cd
+git clone https://github.com/mufeedvh/basecrack.git
+cd basecrack
+python3 -m pip install -r requirements.txt
+python basecrack.py -h
+cd 
 
 # install installation tools
 brew install upx 
 brew install mosh 
 brew install netcat 
 brew install netcat6
+brew cask install termius
 brew cask install vnc-viewer
 #brew cask install vnc-server 
 #rdp
