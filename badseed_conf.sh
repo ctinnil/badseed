@@ -77,12 +77,21 @@ brew install rustscan
 brew install recon-ng 
 brew install findomain 
 brew install theharvester 
+brew cask install zenmap
 brew cask install maltego
 brew cask install wireshark 
 git clone https://github.com/samhaxr/recox
 cd recox
 chmod +x recox.sh
 #./recox.sh
+cd
+
+brew install yarn 
+git clone https://github.com/aliasio/wappalyzer
+cd wappalyzer
+yarn install
+yarn run link
+#node src/drivers/npm/cli.js https://example.com
 cd
 
 # install weaponisation tools
