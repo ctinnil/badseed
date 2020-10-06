@@ -85,6 +85,13 @@ cd recox
 chmod +x recox.sh
 #./recox.sh
 cd
+wget https://sh.rustup.rs -O rust_install.sh
+sh rust_install.sh -y
+rm rust_install.sh
+set show-all-if-ambiguous on
+sleep 1
+cargo install rustscan
+#rustscan 192.168.1.0/24 -t 500 -b 1500 -- -A
 
 brew install yarn 
 git clone https://github.com/aliasio/wappalyzer
