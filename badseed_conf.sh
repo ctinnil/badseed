@@ -48,7 +48,7 @@ brew cask install java
 brew cask install xmind 
 brew cask install reikey 
 brew cask install drawio
-brew cask install qbittorrent #or try deluge 
+brew cask install deluge #or try qbittorrent
 brew cask install firefox
 brew cask install virtualbox 
 brew cask install knockknock 
