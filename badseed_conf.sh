@@ -109,7 +109,7 @@ brew cask install visual-studio-code
 xcode=$(mas search xcode | head -n1 | tr -s " " | cut -f2 -d" " )
 mas install $xcode
 #DIE -- Detect It Easy -- may need yo check https://github.com/horsicq/Detect-It-Easy
-wget https://github.com/horsicq/DIE-engine/releases/download/3.00/die_mac_porta$
+wget https://github.com/horsicq/DIE-engine/releases/download/3.00/die_mac_portable_3.00.dmg
 sudo hdiutil attach die_mac_portable_3.00.dmg
 sudo cp -R /Volumes/die_mac_portable/die.app /Applications
 sudo hdiutil unmount /Volumes/die_mac_portable
