@@ -68,6 +68,9 @@ enpass=$(mas search enpass | head -n1 | tr -s " " | cut -f2 -d" " )
 mas install $enpass
 
 # install reconnaissance tools
+brew tap caffix/amass
+brew install amass
+
 brew install nmap 
 brew install nikto 
 brew install sqlmap 
