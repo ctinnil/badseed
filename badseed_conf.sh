@@ -80,6 +80,7 @@ brew install theharvester
 brew cask install zenmap
 brew cask install maltego
 brew cask install wireshark 
+brew install proxychains-ng
 git clone https://github.com/samhaxr/recox
 cd recox
 chmod +x recox.sh
@@ -99,6 +100,12 @@ cd wappalyzer
 yarn install
 yarn run link
 #node src/drivers/npm/cli.js https://example.com
+cd
+
+#PaGoDo - Passive Google Dork
+git clone https://github.com/opsdisk/pagodo.git
+cd pagodo
+pip3 install -r requirements.txt
 cd
 
 # install weaponisation tools
