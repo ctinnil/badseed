@@ -65,7 +65,7 @@ To import few useful bookmarks
 5. Click the 🔒**lock** icon in the bottom left corner to allow changes.
 6. Enter the administrator password, then click the **Unlock** button.
 7. Next click the plus icon (+).
-8. Choose the **Terminal** app, which can be located at /Applications/Utilities/, then click the Open button.
+8. Choose the **Terminal** app, which can be located at */Applications/Utilities/*, then click the **Open** button.
 9. The Terminal.app will be added to the list.
 10. Click the lock icon to prevent any further changes, and quit **System Preferences**.
 
