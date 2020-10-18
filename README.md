@@ -56,7 +56,7 @@ To import few useful bookmarks
 
 ### Method 1
 
-**Firts you need to grant Full Disk Access to Terminal so that it may be able to modify Bookmarks.plist:**
+**First you need to grant Full Disk Access to Terminal so that it may be able to modify Bookmarks.plist:**
 
 1. Select **System Preferences** from the Apple menu.
 2. In the System Preferences window click the **Security & Policy** icon.
