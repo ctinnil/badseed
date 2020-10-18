@@ -72,6 +72,7 @@ Tested on
 platform | manager | version  
 ---------|---------|---------------
 macOS | [Homebrew](https://docs.brew.sh/Installation) 2.4.13| `10.15.6`
+macOS | [Homebrew](https://docs.brew.sh/Installation) 2.5.6 | `10.15.7`
 
 ### Disclaimer 
 
