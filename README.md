@@ -53,10 +53,15 @@ sudo reboot
 
 To import few useful bookmarks 
 ----
-1. Select System Preferences from the Apple menu.
-2. In the System Preferences window click the Security & Policy icon.
-3. In the Security & Policy pane click the Privacy tab.
-4. Choose Full Disk Access in the left-hand column.
+
+### Method 1
+
+**Firts you need to grant Full Disk Access to Terminal so that it may be able to modify Bookmarks.plist:**
+
+1. Select **System Preferences** from the Apple menu.
+2. In the System Preferences window click the **Security & Policy** icon.
+3. In the Security & Policy pane click the **Privacy** tab.
+4. Choose **Full Disk Access** in the left-hand column.
 5. Click the lock icon in the bottom left corner to allow changes.
 6. Enter the administrator password, then click the Unlock button.
 7. Next click the plus icon (+).
@@ -65,6 +70,17 @@ To import few useful bookmarks
 10. Click the lock icon to prevent any further changes, and quit System Preferences.
 
 ![Full Disk Access](https://github.com/ctinnil/badseed/blob/master/res/TRZzf.png?raw=true)
+
+Now uncomment #add bookmarks section before running ./badseed_conf.sh
+
+### Method 2
+
+1. Open Safari.
+2. Select **File**.
+3. Select **Import From** (or **Import Bookmarks...** ).
+4. Choose to import **Useful Bookmarks.html** from badseed/res/.
+
+![Full Disk Access](https://github.com/ctinnil/badseed/blob/ctinnil-patch-1/res/how%20to%20import%20bookmarks.png?raw=true)
 
 Tested on
 -----
