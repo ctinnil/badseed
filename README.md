@@ -51,12 +51,44 @@ sudo ./badseed_conf.sh # and follow the instructions
 sudo reboot
 ```
 
+To import few useful bookmarks 
+----
+
+### Method 1
+
+**First you need to grant Full Disk Access to Terminal so that it may be able to modify Bookmarks.plist:**
+
+1. Select **System Preferences** from the Apple menu.
+2. In the System Preferences window click the **Security & Policy** icon.
+3. In the Security & Policy pane click the **Privacy** tab.
+4. Choose **Full Disk Access** in the left-hand column.
+5. Click the 🔒**lock** icon in the bottom left corner to allow changes.
+6. Enter the administrator password, then click the **Unlock** button.
+7. Next click the plus icon (+).
+8. Choose the **Terminal** app, which can be located at */Applications/Utilities/*, then click the **Open** button.
+9. The Terminal.app will be added to the list.
+10. Click the lock icon to prevent any further changes, and quit **System Preferences**.
+
+![Full Disk Access](https://github.com/ctinnil/badseed/blob/master/res/TRZzf.png?raw=true)
+
+Now uncomment **#add bookmarks** section before running *./badseed_conf.sh*.
+
+### Method 2
+
+1. Open **Safari**.
+2. Select **File**.
+3. Select **Import From** (or **Import Bookmarks...** ).
+4. Choose to import **Useful Bookmarks.html** from *badseed/res/*.
+
+![Full Disk Access](https://github.com/ctinnil/badseed/blob/ctinnil-patch-1/res/how%20to%20import%20bookmarks.png?raw=true)
+
 Tested on
 -----
 
 platform | manager | version  
 ---------|---------|---------------
 macOS | [Homebrew](https://docs.brew.sh/Installation) 2.4.13| `10.15.6`
+macOS | [Homebrew](https://docs.brew.sh/Installation) 2.5.6 | `10.15.7`
 
 ### Disclaimer 
 
