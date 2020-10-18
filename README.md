@@ -51,6 +51,21 @@ sudo ./badseed_conf.sh # and follow the instructions
 sudo reboot
 ```
 
+To import few useful bookmarks 
+----
+1. Select System Preferences from the Apple menu.
+2. In the System Preferences window click the Security & Policy icon.
+3. In the Security & Policy pane click the Privacy tab.
+4. Choose Full Disk Access in the left-hand column.
+5. Click the lock icon in the bottom left corner to allow changes.
+6. Enter the administrator password, then click the Unlock button.
+7. Next click the plus icon (+).
+8. Choose the Terminal.app, which can be located at /Applications/Utilities/, then click the Open button.
+9. The Terminal.app will be added to the list.
+10. Click the lock icon to prevent any further changes, and quit System Preferences.
+
+![Full Disk Access](https://github.com/ctinnil/badseed/blob/master/res/TRZzf.png?raw=true)
+
 Tested on
 -----
 
