@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/usr/bin/env bash
 
 # filename: badseed_conf.sh
 echo "\$0: $0"
@@ -115,6 +115,7 @@ cd
 brew cask install dotnet 
 brew cask install pycharm-ce 
 brew cask install visual-studio-code
+brew cask install plistedit-pro
 #xcode
 xcode=$(mas search xcode | head -n1 | tr -s " " | cut -f2 -d" " )
 mas install $xcode
