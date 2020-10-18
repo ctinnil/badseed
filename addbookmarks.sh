@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#Thanks to @pbell https://stackoverflow.com/questions/56517403/how-to-create-and-manage-macos-safari-bookmarks-programmatically
 
 declare -r plist_path=~/Library/Safari/Bookmarks.plist
 
