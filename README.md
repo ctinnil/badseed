@@ -80,7 +80,7 @@ Now uncomment **#add bookmarks** section before running *./badseed_conf.sh*.
 3. Select **Import From** (or **Import Bookmarks...** ).
 4. Choose to import **Useful Bookmarks.html** from *badseed/res/*.
 
-![Full Disk Access](https://github.com/ctinnil/badseed/blob/ctinnil-patch-1/res/how%20to%20import%20bookmarks.png?raw=true)
+![Full Disk Access](https://github.com/ctinnil/badseed/blob/master/res/how%20to%20import%20bookmarks.png?raw=true)
 
 Tested on
 -----
