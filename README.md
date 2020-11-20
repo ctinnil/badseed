@@ -35,7 +35,7 @@ This project is a work-in-progress, so feel free to contribute and suggest new t
 Requirements 
 -----
 These requirements are for the computer running the core framework:
-* macOS 10.15+ 
+* macOS Catalina **(VMware Fusion does not support virtualized performance counters on macOS Big Sur)**
 * [Docker](https://docs.docker.com/docker-for-mac/install/)
 * recommended hardware to run on is 4GB+ RAM, 100GB+ HDD and 2+ CPUs
 * if in virtual machine, enables running modern virtualization applications by providing support for Intel VT-x/EPT
