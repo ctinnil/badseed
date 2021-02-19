@@ -35,17 +35,15 @@ This project is a work-in-progress, so feel free to contribute and suggest new t
 Requirements 
 -----
 These requirements are for the computer running the core framework:
-* macOS Catalina **(VMware Fusion does not support virtualized performance counters on macOS Big Sur)**
-* [Docker](https://docs.docker.com/docker-for-mac/install/)
+* Support for hypervisor applications (like [Docker](https://docs.docker.com/docker-for-mac/install/))
 * recommended hardware to run on is 4GB+ RAM, 100GB+ HDD and 2+ CPUs
-* if in virtual machine, enables running modern virtualization applications by providing support for Intel VT-x/EPT
 
 Installation 
 -----
 
 ``` sh
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew install git
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" # to install Homebrew
+brew install git # or install git through the system's command line tool
 git clone https://github.com/ctinnil/badseed.git
 cd badseed
 sudo chmod +x badseed_conf.sh
@@ -87,10 +85,13 @@ Now uncomment **#add bookmarks** section before running *./badseed_conf.sh*.
 Tested on
 -----
 
-platform | manager | version  
----------|---------|---------------
-macOS | [Homebrew](https://docs.brew.sh/Installation) 2.4.13| `10.15.6`
+platform | manager | version 
+---------|---------|------------------
+macOS | [Homebrew](https://docs.brew.sh/Installation) 3.0.1 | `11.2.1` 
 macOS | [Homebrew](https://docs.brew.sh/Installation) 2.5.6 | `10.15.7`
+macOS | [Homebrew](https://docs.brew.sh/Installation) 2.4.13| `10.15.6`
+
+*For macOS Catalina and Homebrew 2.X try older versions of the project for better results.*
 
 ### Disclaimer 
 
