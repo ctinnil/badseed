@@ -43,22 +43,22 @@ brew install openssh
 brew install coreutils
 brew install speedtest-cli 
 brew install midnight-commander 
-brew cask install keka 
-brew cask install java 
-brew cask install xmind 
-brew cask install reikey 
-brew cask install drawio
-brew cask install deluge #or try qbittorrent
-brew cask install firefox
-brew cask install virtualbox 
-brew cask install knockknock 
-brew cask install netiquette 
-brew cask install taskexplorer 
-brew cask install balenaetcher 
-brew cask install malwarebytes 
-brew cask install sublime-text 
-brew cask install google-chrome
-brew cask install docker #must enable hypervisor applications in vm and at least 4GB RAM
+brew install --cask keka # as of 2021 and brew 3.0.1 cask option was changed
+brew install --cask java 
+brew install --cask xmind 
+brew install --cask reikey 
+brew install --cask drawio
+brew install --cask deluge #or try qbittorrent
+brew install --cask firefox
+brew install --cask virtualbox 
+brew install --cask knockknock 
+brew install --cask netiquette 
+brew install --cask taskexplorer 
+brew install --cask balenaetcher 
+brew install --cask malwarebytes 
+brew install --cask sublime-text 
+brew install --cask google-chrome
+brew install --cask docker #must enable hypervisor applications in vm and at least 4GB RAM
 #docker needs to be installed prior so that beef could be configured
 #ddgo
 ddgo=$(mas search duckduckgo | head -n1 | tr -s " " | cut -f2 -d" " )
@@ -80,9 +80,9 @@ brew install rustscan
 brew install recon-ng 
 brew install findomain 
 brew install theharvester 
-brew cask install zenmap
-brew cask install maltego
-brew cask install wireshark 
+brew install --cask zenmap
+brew install --cask maltego
+brew install --cask wireshark 
 brew install proxychains-ng
 git clone https://github.com/samhaxr/recox
 cd recox
@@ -112,10 +112,10 @@ pip3 install -r requirements.txt
 cd
 
 # install weaponisation tools
-brew cask install dotnet 
-brew cask install pycharm-ce 
-brew cask install visual-studio-code
-brew cask install plistedit-pro
+brew install --cask dotnet 
+brew install --cask pycharm-ce 
+brew install --cask visual-studio-code
+brew install --cask plistedit-pro
 #xcode
 xcode=$(mas search xcode | head -n1 | tr -s " " | cut -f2 -d" " )
 mas install $xcode
@@ -129,9 +129,9 @@ sudo hdiutil unmount /Volumes/die_mac_portable
 brew install ettercap 
 brew install bettercap
 brew install mitmproxy
-brew cask install postman 
-brew cask install owasp-zap 
-brew cask install burp-suite
+brew install --cask postman 
+brew install --cask owasp-zap 
+brew install --cask burp-suite
 git clone https://github.com/beefproject/beef.git
 cd beef 
 sed -i'.original' 's/user: \"beef\"/user: \"beefadmin\"/g' config.yaml #changing user for beEF framework, necessary for install 
@@ -156,10 +156,10 @@ brew install exploitdb
 brew install volatility 
 brew install aircrack-ng 
 brew install bulk_extractor
-brew cask install 0xed 
-brew cask install ghidra 
-brew cask install metasploit
-brew cask install binary-ninja 
+brew install --cask 0xed 
+brew install --cask ghidra 
+brew install --cask metasploit
+brew install --cask binary-ninja 
 pip3 install raccoon-scanner
 git clone https://github.com/quark-engine/quark-engine.git; cd quark-engine/quark
 brew install pipenv
@@ -179,9 +179,9 @@ brew install upx
 brew install mosh 
 brew install netcat 
 brew install netcat6
-brew cask install termius
-brew cask install vnc-viewer
-#brew cask install vnc-server 
+brew install --cask termius
+brew install --cask vnc-viewer
+#brew install --cask vnc-server 
 #rdp
 rdp=$(mas search microsoft-remote | head -n1 | tr -s " " | cut -f2 -d" " )
 mas install $rdp
@@ -191,7 +191,7 @@ mas install $ac2
 
 # install c&c tools
 brew install cobalt #static-site generator
-brew cask install merlin-project #Project Management
+brew install --cask merlin-project #Project Management
 ## CALDERA
 git clone https://github.com/mitre/caldera.git --recursive --branch 2.7.0
 cd caldera
