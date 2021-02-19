@@ -58,7 +58,7 @@ brew cask install balenaetcher
 brew cask install malwarebytes 
 brew cask install sublime-text 
 brew cask install google-chrome
-#brew cask install docker #must enable hypervisor applications in vm and at least 4GB RAM
+brew cask install docker #must enable hypervisor applications in vm and at least 4GB RAM
 #docker needs to be installed prior so that beef could be configured
 #ddgo
 ddgo=$(mas search duckduckgo | head -n1 | tr -s " " | cut -f2 -d" " )
@@ -210,7 +210,7 @@ set show-all-if-ambiguous on
 
 #add bookmarks 
 : '
-chmod +ux addbookmarks.sh
+sudo chmod +ux addbookmarks.sh
 ./addbookmarks.sh "Bad Seed" "HomePage https://ctinnil.github.io/badseed/, Project https://github.com/ctinnil/badseed, Homebrew https://formulae.brew.sh"
 ./addbookmarks.sh "Dashboards" "Red http://localhost:8888/, BeEF http://localhost:3000/ui/panel"
 ./addbookmarks.sh "Reconnaissance" "PassiveTotal https://community.riskiq.com/, Spyse https://spyse.com/,DNSdumpster https://dnsdumpster.com/, SpyFu https://www.spyfu.com/, PentestTools https://pentest-tools.com/home, Shodan https://www.shodan.io/, Censys https://censys.io/, GreyNoise https://greynoise.io/, HCIData https://www.hcidata.info/, Whoer https://whoer.net/, VXunderground https://vxug.fakedoma.in, InfoByIp https://www.infobyip.com"
