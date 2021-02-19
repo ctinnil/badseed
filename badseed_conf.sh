@@ -44,7 +44,7 @@ brew install coreutils
 brew install speedtest-cli 
 brew install midnight-commander 
 brew install --cask keka # as of 2021 and brew 3.0.1 cask option was changed
-brew install --cask java 
+#brew install --cask java 
 brew install --cask xmind 
 brew install --cask reikey 
 brew install --cask drawio
@@ -156,17 +156,17 @@ brew install exploitdb
 brew install volatility 
 brew install aircrack-ng 
 brew install bulk_extractor
-brew install --cask 0xed 
+#brew install --cask 0xed #no longer supported
 brew install --cask ghidra 
-brew install --cask metasploit
+#brew install --cask metasploit #no longer supported
 brew install --cask binary-ninja 
 pip3 install raccoon-scanner
 git clone https://github.com/quark-engine/quark-engine.git; cd quark-engine/quark
 brew install pipenv
 pipenv install --skip-lock
-pipenv shell
-quark --help
-exit
+#pipenv shell
+#quark --help
+#exit
 cd
 git clone https://github.com/mufeedvh/basecrack.git
 cd basecrack
