@@ -45,7 +45,7 @@ Installation
 
 ``` sh
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew install cask git
+brew install git
 git clone https://github.com/ctinnil/badseed.git
 cd badseed
 sudo chmod +x badseed_conf.sh
