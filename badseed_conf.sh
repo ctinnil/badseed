@@ -28,7 +28,7 @@ else
 fi
 
 # install other utilities 
-brew install git 
+#brew install git #prerequired 
 brew install mas 
 brew install php
 brew install htop 
