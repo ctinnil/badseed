@@ -1,5 +1,35 @@
 #!/usr/bin/env bash
 
+cat << EOF                                                                     $
+        ..'',,''..                                            ...',,''...
+  ;d0NMMMMMMMMMMMMMNKko;.                              .,cx0XMMMMMMMMMMMMMWKkc.
+    .,l0MMMMMMMMMMMMMMMMMMNOxl;. '.           .. 'cokKWMMMMMMMMMMMMMMMMMXx:.
+         cXMMMMMMMMMMMMMMMMMMMd   ;;..,..;. .:'  .MMMMMMMMMMMMMMMMMMMWx.
+           cWMMMMMMMMMMMMMMMMMW,   ;KMMo,NMWd    0MMMMMMMMMMMMMMMMMMO.
+            .OXMMMMMMMMMMMMMMMMWl ;MMMMo,cc0MN..XMMMMMMMMMMMMMMMMN0c
+                .cOMMMMMMMMMMMMM:.cMMMMocMWd:d, NMMMMMMMMMMMMXd,.
+                   .lNMMMMMMMMMX.x.okNMo:MMMMO ,lMMMMMMMMMMx'
+                      dMMMMMMMMx:W.N0ol':MMMM0.0.MMMMMMMMK.
+                       :OOKNMMMllM;xMMMd:MMMM;dN.MMMWK0Ox
+                             'c;cMO'MMMd'KMMX.WK.o,.
+                                .MO 0MMd,dcl,dMx
+                                 ,kd,MMd;MM0.WM'
+                                 'MM.0W';MM,kMk
+                                  dMk',.;Mk,MN.
+                                   xM':x;W.;K.
+                                    ,x.d;cc'
+                                       ..
+         ******                  **    ********                      **
+        /*////**                /**   **//////                      /**
+        /*   /**   ******       /**  /**         *****   *****      /**
+        /******   //////**   ******  /********* **///** **///**  ******
+        /*//// **  *******  **///**  ////////**/*******/******* **///**
+        /*    /** **////** /**  /**         /**/**//// /**//// /**  /**
+        /******* //********//******   ******** //******//******//******
+        ///////   ////////  //////   ////////   //////  //////  //////
+
+EOF
+
 # filename: badseed_conf.sh
 echo "\$0: $0"
 
