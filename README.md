@@ -14,7 +14,7 @@ BaD SeeD is a macOS **framework** for **digital forensics** and **penetration te
   <a href="https://github.com/ctinnil/badseed/pulls">
       <img src="https://img.shields.io/badge/contributions-welcome-brightgreen" alt="Contributing">
   </a>
-  <a href="https://www.apple.com/macos/catalina/https://github.com/ctinnil/badseed/pulls">
+  <a href="https://www.apple.com/macos/big-sur/">
       <img src="https://img.shields.io/badge/OS-macOS-brightgreen" alt="OS">
   </a>
   <a href="https://twitter.com/intent/tweet?text=BaD+SeeD+-+macOS+framework+to+improve+your+purple+teaming&amp;url=https%3A%2F%2Fgithub.com%2Fctinnil%2Fbadseed.gite&amp;via=ctinnil">
