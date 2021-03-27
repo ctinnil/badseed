@@ -98,6 +98,27 @@ enpass=$(mas search enpass | head -n1 | tr -s " " | cut -f2 -d" " )
 mas install $enpass
 
 # install reconnaissance tools
+
+################################################
+#################WKOxdollodxOKW#################
+############Nkl'.              .'lkN############
+########WOc.    .  .;lxkkxl;.       .cOW########
+######0:    ;dK##K0##W0kk0W##0, ,Od;    :0######
+###Wx.   ;OW########o      'O##x .W#WO;   .xW###
+##d.  .dW####d;0##K0Kd.      d##l l####Wd.  .d##
+#:   ,W######, O##.          .##O ,######W,   :#
+##x.  .oN####l l##x          x##l l####No.  .x##
+####k.   ;kW#W. x##0,      ,0##x .W#Wk;   .k####
+######0c    ,oO, 'O##WKOOKW##O' ,Oo,    c0######
+#########0l.        ,cdxxdc,        .l0#########
+############WOo,.              .,oOW############
+#################WX0kxdoodxk0XW#################
+################################################
+################################################
+####          Reconnaissance tools          ####
+################################################
+
+
 brew tap caffix/amass
 brew install amass
 
