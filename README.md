@@ -99,3 +99,10 @@ macOS | [Homebrew](https://docs.brew.sh/Installation) 2.4.13| `10.15.6`
 
 ### Thanks to Homebrew developers and contributors !!!
 @https://github.com/Homebrew/brew.git
+
+##### Various configs have been taken from various places on the web, as:
+   -	https://gist.github.com/brandonb927/3195465
+   -	https://gist.github.com/codeinthehole/26b37efa67041e1307db
+   -	https://gist.github.com/MatthewMueller/e22d9840f9ea2fee4716 
+   -	https://gist.github.com/jousby/2ab03202b5bf7878f9b850b916e54a3e]
+##### and so on ... check them out yourself
