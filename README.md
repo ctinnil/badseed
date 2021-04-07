@@ -88,8 +88,8 @@ Tested on
 platform | manager | version 
 ---------|---------|------------------
 macOS | [Homebrew](https://docs.brew.sh/Installation) 3.0.1 | `11.2.1` 
-macOS | [Homebrew](https://docs.brew.sh/Installation) 2.5.6 | `10.15.7`
-macOS | [Homebrew](https://docs.brew.sh/Installation) 2.4.13| `10.15.6`
+macOS | [Homebrew](https://docs.brew.sh/Installation) ---2.5.6--- | `10.15.7`
+macOS | [Homebrew](https://docs.brew.sh/Installation) ---2.4.13---| `10.15.6`
 
 *For macOS Catalina and Homebrew 2.X try older versions of the project for better results.*
 
