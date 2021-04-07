@@ -105,4 +105,5 @@ macOS | [Homebrew](https://docs.brew.sh/Installation) <s>2.4.13</s> `10.15.6`
    -	https://gist.github.com/codeinthehole/26b37efa67041e1307db
    -	https://gist.github.com/MatthewMueller/e22d9840f9ea2fee4716 
    -	https://gist.github.com/jousby/2ab03202b5bf7878f9b850b916e54a3e]
+   -	https://gist.githubusercontent.com/dsummersl/4175461/raw/36811eab78ca5e1a25fbd547a44b3d9c8d0d424d/makeFullScreen.applescript
 ##### and so on ... check them out yourself
