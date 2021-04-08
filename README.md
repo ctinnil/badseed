@@ -2,7 +2,7 @@
 
 BaD SeeD is a macOS **framework** for **digital forensics** and **penetration testing**.
 
-![BaD SeeD](https://github.com/ctinnil/badseed/blob/master/res/logo.001.png?raw=true)
+![logo](https://user-images.githubusercontent.com/69745175/113999518-c8eb1a80-9862-11eb-8169-a86d3c6cd201.png)
 
 <p align="center">
   <a href="https://github.com/ctinnil/badseed/blob/master/LICENSE">
@@ -28,70 +28,37 @@ The project relies on open-source and commercial tools used in the industry that
 
 It organizes the tools following the [Cyber Kill Chain®](https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html) framework developed by Lockheed Martin. The model highlights the main action taken by an attacker (whitehat or otherwise), to compromise an IT infrastructure. The seven steps of CKC can enhance understanding of the adversary’s tactics, techniques, and procedures, enriching the capabilities of both blue and red teams.
 
-![CKC](https://github.com/ctinnil/badseed/blob/master/res/ckc.png?raw=true)
+![ckc](https://user-images.githubusercontent.com/69745175/113999575-d43e4600-9862-11eb-9b62-83ca13074f18.png)
 
 This project is a work-in-progress, so feel free to contribute and suggest new tools that can be added. 
 
 Requirements 
 -----
+To diminish the time of run and the probability of failure, we recommend updating your macOS and tools before running the installation. 
+
+**Comment or delete any configurations that you consider unnecessary or just run the bootstrapping script.**
+
 These requirements are for the computer running the core framework:
+* macOS Catalina `10.15` or higher
 * Support for hypervisor applications (like [Docker](https://docs.docker.com/docker-for-mac/install/))
-* recommended hardware to run on is 4GB+ RAM, 100GB+ HDD and 2+ CPUs
+* Recommended hardware to run on is 4GB+ RAM, 150GB+ HDD and 2+ CPUs
+* Some installs require that you are signed in with your AppleID
 
 Installation 
 -----
-
-``` sh
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" # to install Homebrew
-brew install git # or install git through the system's command line tool
-git clone https://github.com/ctinnil/badseed.git
-cd badseed
-sudo chmod +x badseed_conf.sh
-./badseed_conf.sh # and follow the instructions 
-sudo reboot
+Simply copy and paste the following in a terminal:
+```
+zsh <(curl -s https://raw.githubusercontent.com/ctinnil/badseed/master/badseed_conf.sh)
 ```
 
 To import few useful bookmarks 
 ----
-
-### Method 1
-
-**First you need to grant Full Disk Access to Terminal so that it may be able to modify Bookmarks.plist:**
-
-1. Select **System Preferences** from the Apple menu.
-2. In the System Preferences window click the **Security & Policy** icon.
-3. In the Security & Policy pane click the **Privacy** tab.
-4. Choose **Full Disk Access** in the left-hand column.
-5. Click the 🔒**lock** icon in the bottom left corner to allow changes.
-6. Enter the administrator password, then click the **Unlock** button.
-7. Next click the plus icon (+).
-8. Choose the **Terminal** app, which can be located at */Applications/Utilities/*, then click the **Open** button.
-9. The Terminal.app will be added to the list.
-10. Click the lock icon to prevent any further changes, and quit **System Preferences**.
-
-![Full Disk Access](https://github.com/ctinnil/badseed/blob/master/res/TRZzf.png?raw=true)
-
-Now uncomment **#add bookmarks** section before running *./badseed_conf.sh*.
-
-### Method 2
-
 1. Open **Safari**.
 2. Select **File**.
 3. Select **Import From** (or **Import Bookmarks...** ).
 4. Choose to import **Useful Bookmarks.html** from *badseed/res/*.
 
-![Full Disk Access](https://github.com/ctinnil/badseed/blob/master/res/how%20to%20import%20bookmarks.png?raw=true)
-
-Tested on
------
-
-platform | manager | version 
----------|---------|------------------
-macOS | [Homebrew](https://docs.brew.sh/Installation) 3.0.1 | `11.2.1` 
-macOS | [Homebrew](https://docs.brew.sh/Installation) <s>2.5.6</s> | `10.15.7`
-macOS | [Homebrew](https://docs.brew.sh/Installation) <s>2.4.13</s> `10.15.6`
-
-*For macOS Catalina and Homebrew 2.X try older versions of the project for better results.*
+<img width="606" alt="how to import bookmarks" src="https://user-images.githubusercontent.com/69745175/114000179-6e05f300-9863-11eb-9064-a4b426daf862.png">
 
 ### Disclaimer 
 
@@ -100,10 +67,9 @@ macOS | [Homebrew](https://docs.brew.sh/Installation) <s>2.4.13</s> `10.15.6`
 ### Thanks to Homebrew developers and contributors !!!
 @https://github.com/Homebrew/brew.git
 
-##### Various configs have been taken from various places on the web, as:
-   -	https://gist.github.com/brandonb927/3195465
-   -	https://gist.github.com/codeinthehole/26b37efa67041e1307db
-   -	https://gist.github.com/MatthewMueller/e22d9840f9ea2fee4716 
-   -	https://gist.github.com/jousby/2ab03202b5bf7878f9b850b916e54a3e]
-   -	https://gist.githubusercontent.com/dsummersl/4175461/raw/36811eab78ca5e1a25fbd547a44b3d9c8d0d424d/makeFullScreen.applescript
-##### and so on ... check them out yourself
+Some configurations have been taken from various places on the web, as:
+- https://gist.github.com/brandonb927/3195465
+- https://gist.github.com/codeinthehole/26b37efa67041e1307db
+
+Check them out yourself!
+
