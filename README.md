@@ -56,7 +56,7 @@ To import few useful bookmarks
 1. Open **Safari**.
 2. Select **File**.
 3. Select **Import From** (or **Import Bookmarks...** ).
-4. Choose to import **Useful Bookmarks.html** from *badseed/res/*.
+4. Choose to import **Useful Bookmarks.html**.
 
 <img width="606" alt="how to import bookmarks" src="https://user-images.githubusercontent.com/69745175/114000179-6e05f300-9863-11eb-9064-a4b426daf862.png">
 
