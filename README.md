@@ -67,9 +67,8 @@ To import few useful bookmarks
 ### Thanks to Homebrew developers and contributors !!!
 @https://github.com/Homebrew/brew.git
 
-Some configurations have been taken from various places on the web, as:
+Some configurations have been inspired from various places on the web, as:
 - https://gist.github.com/brandonb927/3195465
 - https://gist.github.com/codeinthehole/26b37efa67041e1307db
 
 Check them out yourself!
-
