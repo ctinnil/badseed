@@ -1,4 +1,4 @@
-# BaD SeeD
+# BaDSeeD
 
 BaD SeeD is a macOS **framework** for **digital forensics** and **penetration testing**.
 
