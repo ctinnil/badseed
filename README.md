@@ -2,7 +2,7 @@
 
 BaD SeeD is a macOS **framework** for **digital forensics** and **penetration testing**.
 
-![logo](https://user-images.githubusercontent.com/69745175/113999518-c8eb1a80-9862-11eb-8169-a86d3c6cd201.png)
+![logo_v1](https://user-images.githubusercontent.com/69745175/114140343-ce0aa100-9918-11eb-8767-b0e97e68b5a0.jpg)
 
 <p align="center">
   <a href="https://github.com/ctinnil/badseed/blob/master/LICENSE">
@@ -28,7 +28,7 @@ The project relies on open-source and commercial tools used in the industry that
 
 It organizes the tools following the [Cyber Kill Chain®](https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html) framework developed by Lockheed Martin. The model highlights the main action taken by an attacker (whitehat or otherwise), to compromise an IT infrastructure. The seven steps of CKC can enhance understanding of the adversary’s tactics, techniques, and procedures, enriching the capabilities of both blue and red teams.
 
-![ckc](https://user-images.githubusercontent.com/69745175/113999575-d43e4600-9862-11eb-9b62-83ca13074f18.png)
+![ckc](https://user-images.githubusercontent.com/69745175/114143730-2cd21980-991d-11eb-9875-9d8b1e1f4cec.jpg)
 
 This project is a work-in-progress, so feel free to contribute and suggest new tools that can be added. 
 
