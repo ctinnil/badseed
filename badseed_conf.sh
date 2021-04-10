@@ -302,7 +302,7 @@ echo "Installing basecrack ... "
 git clone https://github.com/mufeedvh/basecrack.git
 cd basecrack
 sudo python3 -m pip install -r requirements.txt
-python3 basecrack.py -h
+echo "Run 'python3 basecrack.py -h' to use "
 cd 
 
 echo ""
