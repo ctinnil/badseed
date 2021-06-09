@@ -5,6 +5,7 @@ BaDSeeD is a macOS **framework** for **digital forensics** and **penetration tes
 ![logo_v1](https://user-images.githubusercontent.com/69745175/114140343-ce0aa100-9918-11eb-8767-b0e97e68b5a0.jpg)
 
 <p align="center">
+  <a href="https://doi.org/10.5281/zenodo.4915653"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4915653.svg" alt="DOI"></a>
   <a href="https://github.com/ctinnil/badseed/blob/master/LICENSE">
       <img src="https://img.shields.io/github/license/ctinnil/badseed" alt="License">
   </a>
