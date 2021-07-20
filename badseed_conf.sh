@@ -16,7 +16,7 @@ cat << EOF
             .OXMMMMMMMMMMMMMMMMWl ;MMMMo,cc0MN..XMMMMMMMMMMMMMMMMN0c            ## * Args           : none                                        ##
                 .cOMMMMMMMMMMMMM:.cMMMMocMWd:d, NMMMMMMMMMMMMXd,.               ## * Usage          : zsh badseed_conf.sh                         ##
                    .lNMMMMMMMMMX.x.okNMo:MMMMO ,lMMMMMMMMMMx'                   ## * Notes          : Install Homebrew to use this script.        ##
-                      dMMMMMMMMx:W.N0ol':MMMM0.0.MMMMMMMMK.                     ## * Version        : 2.0                                         ##
+                      dMMMMMMMMx:W.N0ol':MMMM0.0.MMMMMMMMK.                     ## * Version        : 2.1                                         ##
                        :OOKNMMMllM;xMMMd:MMMM;dN.MMMWK0Ox                       ## * Author         : @ctinnil                                    ##
                              'c;cMO'MMMd'KMMX.WK.o,.                            ## * Email          : ctinnil@protonmail.com                      ##
                                 .MO 0MMd,dcl,dMx                                ##                                                                ##
@@ -161,11 +161,12 @@ PACKAGES=(
     lynx
     macvim
     markdown
-    mas 
-    midnight-commander 
+    mas
+    masscan
+    midnight-commander
     mitmproxy
-    mosh 
-    netcat 
+    mosh
+    netcat
     netcat6
     nikto 
     nmap 
@@ -367,10 +368,31 @@ GOPATH=$(go env GOPATH)
 $GOPATH/bin/Modlishka
 echo "Run '$GOPATH/bin/Modlishka' to use the module"
 
+echo "Installing ZGrab 2.0 ... Check out more here: https://github.com/zmap/zgrab2"
+go get -u github.com/zmap/zgrab2
+GOPATH=$(go env GOPATH)
+cd $GOPATH/src/github.com/zmap/zgrab2
+make
+echo "Example usage './zgrab2 ssh'"
+
 echo ""
 echo "Installing zphisher ... "
 git clone git://github.com/htr-tech/zphisher.git
 echo "Run 'zsh zphisher/zphisher.sh ' to use the module"
+
+echo ""
+echo "Installing l9explore ... Check out more here: https://github.com/LeakIX/l9explore"
+wget -O l9explore https://github.com/LeakIX/l9explore/releases/download/v1.2.2/l9explore-osx
+mv l9explore /usr/local/bin/l9explore
+echo "Checkout source here: https://github.com/LeakIX/l9explore"
+echo "Run 'l9explore service -h'"
+
+echo ""
+echo "Installing l9tcpid ... Check out more here: https://github.com/LeakIX/l9tcpid"
+wget -O l9tcpid https://github.com/LeakIX/l9tcpid/releases/download/v1.1.0/l9tcpid-osx
+mv l9tcpid /usr/local/bin/l9tcpid
+echo "Checkout source here: https://github.com/LeakIX/l9explore"
+echo "Run 'l9tcpid service -h'"
 
 echo ""
 echo "Set BaD SeeD workstation wallpaper"
