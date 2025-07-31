@@ -21,8 +21,19 @@ BaDSeeD is a macOS **framework** for **digital forensics** and **penetration tes
   <a href="https://twitter.com/intent/tweet?text=BaD+SeeD+-+macOS+framework+to+improve+your+purple+teaming&amp;url=https%3A%2F%2Fgithub.com%2Fctinnil%2Fbadseed.git&amp;via=ctinnil">
       <img src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fctinnil%2Fbadseed.git" alt="Tweet">
   </a>
+  <a href="https://bsky.app/intent/compose?text=BaD+SeeD+-+macOS+framework+to+improve+your+purple+teaming+https%3A%2F%2Fgithub.com%2Fctinnil%2Fbadseed.git">
+    <img src="https://img.shields.io/badge/Bluesky-Post-blue" alt="Post on Bluesky">
+  </a>
 </p>
 
+## Spread the Word
+
+We’d love your help to grow **BaDSeeD**!  
+If you find this project helpful, please share it with your friends, colleagues, or communities—on social media, newsletters, or blogs. Every mention helps us reach more people who might benefit from it.
+
+You can also support the project directly by [buying me a coffee](https://buymeacoffee.com/ctinnil)—it means a lot and helps keep everything running!
+
+Thank you for being part of our journey and for helping **BaDSeeD** thrive!
 ---
 
 The project relies on open-source and commercial tools used in the industry that are maintained by their authors. To summarise, BaDSeeD offers a full portable laboratory for all kinds of cybersecurity operations, ranging from pentesting to digital forensics and reverse engineering. Still, it also includes everything needed to develop your software or keep your data secure.
