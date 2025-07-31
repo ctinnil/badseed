@@ -26,14 +26,17 @@ BaDSeeD is a macOS **framework** for **digital forensics** and **penetration tes
   </a>
 </p>
 
-## Spread the Word
+## Spread the Word 
 
 We’d love your help to grow **BaDSeeD**!  
 If you find this project helpful, please share it with your friends, colleagues, or communities—on social media, newsletters, or blogs. Every mention helps us reach more people who might benefit from it.
 
-You can also support the project directly by [buying me a coffee](https://buymeacoffee.com/ctinnil)—it means a lot and helps keep everything running!
+You can also support the project directly and [![Support BaDSeeD](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-yellow?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/ctinnil)
 
-Thank you for being part of our journey and for helping **BaDSeeD** thrive!
+ —it means a lot and helps keep everything running!
+
+Thank you for being part of our journey and for helping **BaDSeeD** thrive 🚀
+
 ---
 
 The project relies on open-source and commercial tools used in the industry that are maintained by their authors. To summarise, BaDSeeD offers a full portable laboratory for all kinds of cybersecurity operations, ranging from pentesting to digital forensics and reverse engineering. Still, it also includes everything needed to develop your software or keep your data secure.
